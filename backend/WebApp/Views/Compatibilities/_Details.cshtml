@@ -1,0 +1,22 @@
+﻿@model DAL.App.DTO.Compatibility
+
+<dl class="row">
+    <dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.CompatibilityType)
+    </dt>
+    <dd class = "col-sm-10">
+        @Html.DisplayFor(model => model.CompatibilityType!.Type)
+    </dd>
+    <dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.GameOnPlatform)
+    </dt>
+    <dd class = "col-sm-10">
+        @Html.DisplayFor(model => model.GameOnPlatform!.Id)
+    </dd>
+    <dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.Emulator)
+    </dt>
+    <dd class = "col-sm-10">
+        @Html.DisplayFor(model => model.Emulator!.Name)
+    </dd>
+</dl>

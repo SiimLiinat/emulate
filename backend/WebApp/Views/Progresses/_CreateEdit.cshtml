@@ -1,0 +1,44 @@
+﻿@model WebApp.ViewModels.Progresses.ProgressCreateEditViewModel
+
+<div class="form-group">
+    <label asp-for="Progress.GameId" class="control-label"></label>
+    <select asp-for="Progress.GameId" class ="form-control" asp-items="ViewBag.GameId"></select>
+</div>
+<div class="form-group">
+    <label asp-for="Progress.ConfigurationId" class="control-label"></label>
+    <select asp-for="Progress.ConfigurationId" class ="form-control" asp-items="ViewBag.ConfigurationId"></select>
+</div>
+<div class="form-group">
+    <label asp-for="Progress.CompatibilityTypeId" class="control-label"></label>
+    <select asp-for="Progress.CompatibilityTypeId" class ="form-control" asp-items="ViewBag.CompatibilityTypeId"></select>
+</div>
+<div class="form-group form-check">
+    <label class="form-check-label">
+        <input class="form-check-input" asp-for="Progress.Public" /> @Html.DisplayNameFor(model => model.Progress.Public)
+    </label>
+</div>
+<div class="form-group">
+    <label asp-for="Progress.Time" class="control-label"></label>
+    <input asp-for="Progress.Time" class="form-control" />
+    <span asp-validation-for="Progress.Time" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="Progress.Score" class="control-label"></label>
+    <input asp-for="Progress.Score" class="form-control" />
+    <span asp-validation-for="Progress.Score" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="Progress.CreatedAt" class="control-label"></label>
+    <input asp-for="Progress.CreatedAt" class="form-control" />
+    <span asp-validation-for="Progress.CreatedAt" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="Progress.EditedAt" class="control-label"></label>
+    <input asp-for="Progress.EditedAt" class="form-control" />
+    <span asp-validation-for="Progress.EditedAt" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="Progress.Review" class="control-label"></label>
+    <input asp-for="Progress.Review" class="form-control" />
+    <span asp-validation-for="Progress.Review" class="text-danger"></span>
+</div>

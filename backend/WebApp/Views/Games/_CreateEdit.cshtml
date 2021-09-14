@@ -1,0 +1,26 @@
+﻿@model WebApp.ViewModels.Games.GameCreateEditViewModel
+
+<div class="form-group">
+    <label asp-for="Game.DevCompanyId" class="control-label"></label>
+    <select asp-for="Game.DevCompanyId" class="form-control" asp-items="Model.DevCompanySelectList">
+        <option value=""></option>
+    </select>
+    <span asp-validation-for="Game.DevCompanyId" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="Game.PubCompanyId" class="control-label"></label>
+    <select asp-for="Game.PubCompanyId" class="form-control" asp-items="Model.PubCompanySelectList">
+        <option value=""></option>
+    </select>
+    <span asp-validation-for="Game.PubCompanyId" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="Game.Name" class="control-label"></label>
+    <input asp-for="Game.Name" class="form-control" />
+    <span asp-validation-for="Game.Name" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="Game.ReleaseDate" class="control-label"></label>
+    <input asp-for="Game.ReleaseDate" class="form-control" />
+    <span asp-validation-for="Game.ReleaseDate" class="text-danger"></span>
+</div>

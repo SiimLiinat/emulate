@@ -1,0 +1,15 @@
+﻿@model WebApp.ViewModels.GameOnPlatforms.GameOnPlatformCreateEditViewModel
+
+<div class="form-group">
+    <label asp-for="GameOnPlatform.GameId" class="control-label"></label>
+    <select asp-for="GameOnPlatform.GameId" class ="form-control" asp-items="ViewBag.GameId"></select>
+</div>
+<div class="form-group">
+    <label asp-for="GameOnPlatform.PlatformId" class="control-label"></label>
+    <select asp-for="GameOnPlatform.PlatformId" class ="form-control" asp-items="ViewBag.PlatformId"></select>
+</div>
+<div class="form-group">
+    <label asp-for="GameOnPlatform.ReleaseDate" class="control-label"></label>
+    <input asp-for="GameOnPlatform.ReleaseDate" class="form-control" />
+    <span asp-validation-for="GameOnPlatform.ReleaseDate" class="text-danger"></span>
+</div>

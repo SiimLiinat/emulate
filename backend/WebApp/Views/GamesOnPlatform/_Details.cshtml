@@ -1,0 +1,22 @@
+﻿@model DAL.App.DTO.GameOnPlatform
+
+<dl class="row">
+    <dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.Game)
+    </dt>
+    <dd class = "col-sm-10">
+        @Html.DisplayFor(model => model.Game!.Name)
+    </dd>
+    <dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.Platform)
+    </dt>
+    <dd class = "col-sm-10">
+        @Html.DisplayFor(model => model.Platform!.Code)
+    </dd>
+    <dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.ReleaseDate)
+    </dt>
+    <dd class = "col-sm-10">
+        @Html.DisplayFor(model => model.ReleaseDate)
+    </dd>
+</dl>

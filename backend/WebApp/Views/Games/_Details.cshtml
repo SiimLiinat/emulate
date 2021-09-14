@@ -1,0 +1,32 @@
+﻿@model DAL.App.DTO.Game
+
+<dl class="row">
+    <dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.DevCompany)
+    </dt>
+    <dd class = "col-sm-10">
+        @Html.DisplayFor(model => model.DevCompany!.Name)
+    </dd>
+    <dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.PubCompany)
+    </dt>
+    <dd class="col-sm-10">
+        @if (Model.PubCompany != null)
+        {
+            @Html.DisplayFor(model => model.PubCompany!.Name)
+        }
+    </dd>
+    <dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.Name)
+    </dt>
+    <dd class = "col-sm-10">
+        @Html.DisplayFor(model => model.Name)
+    </dd>
+    <dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.ReleaseDate)
+    </dt>
+    <dd class = "col-sm-10">
+        @Html.DisplayFor(model => model.ReleaseDate)
+    </dd>
+</dl>
+
