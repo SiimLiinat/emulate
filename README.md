@@ -5,3 +5,6 @@ Backend written in C# using various .Net frameworks, client made in TypeScript u
 
 **Landing page:**
 ![Screenshot 2021-12-26 at 22-25-43 vue-client](https://user-images.githubusercontent.com/57288361/147419279-728d3e72-b01c-489c-ab9b-75d1c5f313d4.png)
+
+**Register:**
+![Screenshot 2021-12-26 at 22-25-43 vue-client](https://user-images.githubusercontent.com/57288361/147419368-5bd5d548-6bd6-4401-9cb2-85a9e939e6fc.png)
