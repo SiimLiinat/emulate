@@ -4,4 +4,4 @@ emulate was made with the goal to bring together different emulators and their c
 Backend written in C# using various .Net frameworks, client made in TypeScript using Vue.
 
 **Landing page:**
-![Screenshot 2021-12-26 at 22-25-43 vue-client](https://user-images.githubusercontent.com/57288361/147419279-728d3e72-b01c-489c-ab9b-75d1c5f313d4.png)
+![Video](https://user-images.githubusercontent.com/57288361/171643521-f523df16-a64e-4bb5-90b9-8f3706b8aea1.mp4)
